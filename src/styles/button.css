@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 10px;
+  font-family: "Inter Bold", sans-serif;
+  color: var(--Black);
+  width: 300px;
+  height: 50px;
+  background: var(--White);
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+@import "Colors.css";
+@import "auth-button.css";
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../fonts/Inter-Bold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+body {
+  background-image: url("../images/Background.svg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+html, body, #root {
+  width: 100%;
+}

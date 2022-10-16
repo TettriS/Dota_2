@@ -1,0 +1,53 @@
+.info-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  color: var(--Brightest-violet);
+}
+.info-block__block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  flex: 1;
+}
+.info-block__term {
+  padding: 50px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  max-width: 370px;
+}
+.info-block__description {
+  font-style: normal;
+  /*font-weight: 600;*/
+  /* Не соотвествует макету, видно именно 500 */
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  max-width: 320px;
+  opacity: 0.75;
+  margin: 0;
+}
+.Icon_1::before {
+  content: url("../images/mainpage-icons/Icon 1.svg");
+}
+.Icon_2::before {
+  content: url("../images/mainpage-icons/Icon 2.svg");
+}
+.Icon_3::before {
+  content: url("../images/mainpage-icons/Icon 3.svg");
+}
+
+.Icon_1::before,
+.Icon_2::before,
+.Icon_3::before {
+  height: 128px;
+  width: 128px;
+}

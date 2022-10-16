@@ -1,0 +1,11 @@
+.button-pane {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 640px;
+  height: 61px;
+}
+.button-pane__button {
+  flex: 1;
+  margin: 10px;
+}

@@ -11,5 +11,8 @@
   height: 50px;
   background: var(--White);
   border-radius: 4px;
+}
+.button:hover {
   cursor: pointer;
+  background: var(--Light-gray);
 }

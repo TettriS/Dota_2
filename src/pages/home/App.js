@@ -5,6 +5,7 @@ import pic1 from '../../images/mainpage-icons/Icon 1.svg';
 import pic2 from '../../images/mainpage-icons/Icon 2.svg';
 import pic3 from '../../images/mainpage-icons/Icon 3.svg';
 import './App.css';
+import "../../components/auth-button/auth-button.css";
 import Search from '../../components/search/search';
 import ButtonPane from '../../components/button-pane/button-pane';
 import Button from "../../components/button/button";
@@ -55,9 +56,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo"/>
         <Button className="auth-button" name="Авторизация" onClick={() => setIsOpen(true)}/>
-        <Popup open={isOpen} className="login">
-          <Button className="login__close" onClick={() => setIsOpen(false)} />
-          <Login></Login>
+        <Popup open={isOpen} className="popup__login">
+          <Login>
+            <Button className="login__close" onClick={() => setIsOpen(false)} />
+          </Login>
         </Popup>
       </header>
       <main className="App-main">

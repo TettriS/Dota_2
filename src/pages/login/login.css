@@ -11,18 +11,15 @@
   box-shadow: 0 32px 128px -48px rgba(16, 0, 37, 0.25);
   border-radius: 10px;
 }
+.login h1 {
+  color: var(--Bright-violet);
+}
 .login__input {
   width: 376px;
   text-align: left;
 }
 .login__input .input:hover + .input__reaction-line {
   border-bottom: 2px solid var(--Black);
-}
-.login__buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
 }
 .button.login__close {
   position: absolute;
@@ -40,10 +37,31 @@
 .login__close:hover::before {
   content: url("../../images/icons/Type=Close, Color=Universal, Status=Hover.svg");
 }
+.login__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.login__enter {
+  width: 128px;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  color: var(--White);
+  background: var(--Bright-violet);
+}
+.login__enter:hover {
+  background: var(--Lime);
+}
 .register .anchor__link::after,
 .pass-lost .anchor__link::after {
   content: url("../../images/icons/Type=Arrow right, Color=Black, Status=Normal.svg");
   display: flex;
   height: 24px;
   width: 24px;
+}
+.register .anchor__link:hover::after,
+.pass-lost .anchor__link:hover::after {
+  content: url("../../images/icons/Type=Arrow right, Color=Universal, Status=Hover.svg");
 }

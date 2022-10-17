@@ -8,4 +8,11 @@
   height: 34px;
   padding: 0 20px;
   text-decoration: none;
+  color: var(--Black);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.anchor__link:hover {
+  color: var(--Lime);
 }

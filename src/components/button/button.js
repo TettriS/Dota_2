@@ -1,7 +1,7 @@
 import './button.css';
 
 const Button = (props) => {
-  const {name, className, title, onClick = () => {}} = props;
+  const {children, className, title, onClick = () => {}} = props;
 
   return <button
     type="button"
@@ -9,7 +9,7 @@ const Button = (props) => {
     onClick={onClick}
     title={title}
   >
-    {name}
+    {children}
   </button>;
 };
 

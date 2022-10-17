@@ -17,13 +17,13 @@ import Footer from "../../components/footer/footer";
 function App() {
   const buttons = [
     {
-      name: 'Список матчей',
+      context: 'Список матчей',
       id: '1',
       onClick: () => {
       }
     },
     {
-      name: 'Список команд',
+      context: 'Список команд',
       id: '2',
       onClick: () => {
       }
@@ -55,7 +55,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo"/>
-        <Button className="auth-button" name="Авторизация" onClick={() => setIsOpen(true)}/>
+        <Button className="auth-button" onClick={() => setIsOpen(true)}>Авторизация</Button>
         <Popup open={isOpen} className="popup__login">
           <Login>
             <Button className="login__close" onClick={() => setIsOpen(false)} />

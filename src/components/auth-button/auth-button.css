@@ -16,7 +16,7 @@
   margin: 0;
 }
 .auth-button::before {
-  content: url("../images/icons/Type=User, Color=White, Status=Normal.svg");
+  content: url("../../images/icons/Type=User, Color=White, Status=Normal.svg");
   display: inline;
   height: 24px;
   width: 24px;

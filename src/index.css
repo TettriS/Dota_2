@@ -1,12 +1,27 @@
-@import "Colors.css";
-@import "auth-button.css";
+@import "components/auth-button/auth-button.css";
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter-Medium.ttf") format("truetype");
+  src: url("fonts/Inter-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Inter Bold";
-  src: url("../fonts/Inter-Bold.ttf") format("truetype");
+  src: url("fonts/Inter-Bold.ttf") format("truetype");
+}
+/* Const colors */
+:root {
+  --White: #ffffff;
+  --Black: #000000;
+  --Light-gray: #E0E0E0;
+  --Gray: #808080;
+  --Dark-gray: #404040;
+  --Lime: #bbdd00;
+  --Yellow: #EECD00;
+  --Orange: #fa7000;
+  --Shade-violet: #100025;
+  --Dark-violet: #200050;
+  --Violet: #301070;
+  --Bright-violet: #7540f0;
+  --Brightest-violet: #e0d8ff;
 }
 body {
   margin: 0;
@@ -25,7 +40,7 @@ code {
   monospace;
 }
 body {
-  background-image: url("../images/Background.svg");
+  background-image: url("images/Background.svg");
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-import '../styles/info-block.css';
+import './info-block.css';
 
 const InfoBlock = ({contain}) => {
   return (
@@ -6,6 +6,7 @@ const InfoBlock = ({contain}) => {
       {[...contain].map(({id, picture, term, description}) => (
         <dl key={id} className={`info-block__block ${picture}`}>
           <dt className="info-block__term">
+            <img src={picture} alt=""/><br/>
             {term}
           </dt>
           <dd className="info-block__description">{description}</dd>

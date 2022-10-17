@@ -15,10 +15,11 @@
   background: rgba(16, 0, 37, 0.25);
   border-radius: 4px 4px 1px 1px;
   cursor: pointer;
+  width: 640px;
 }
 .search-panel__reaction-line {
   border-bottom: 2px solid var(--Gray);
-  width: 640px;
+  width: 100%;
 }
 .search-panel__input:hover + .search-panel__reaction-line,
 .search-panel__button:hover ~ .search-panel__reaction-line {
@@ -48,12 +49,12 @@
   padding: 20px 20px 15px 20px;
 }
 .search-panel__button::before {
-  content: url("../images/icons/Type=Search, Color=White, Status=Normal.svg");
+  content: url("../../images/icons/Type=Search, Color=White, Status=Normal.svg");
   display: block;
   height: 24px;
   width: 24px;
 }
 
 .search-panel__button:hover::before {
-  content: url("../images/icons/Type=Search, Color=Universal, Status=Hover.svg");
+  content: url("../../images/icons/Type=Search, Color=Universal, Status=Hover.svg");
 }

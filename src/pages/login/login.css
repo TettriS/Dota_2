@@ -1,0 +1,13 @@
+.button.login__close {
+  background: transparent;
+  height: 24px;
+  width: 24px;
+  border: none;
+}
+.login__close::before {
+  content: url("../../images/icons/Type=Close, Color=White, Status=Normal.svg");
+  display: flex;
+}
+.login__close:hover::before {
+  content: url("../../images/icons/Type=Close, Color=Universal, Status=Hover.svg");
+}

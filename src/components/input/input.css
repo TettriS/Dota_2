@@ -1,0 +1,35 @@
+.input__label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 4px 4px 1px 1px;
+  cursor: pointer;
+}
+.input__reaction-line {
+  border-bottom: 2px solid var(--Gray);
+  width: 100%;
+}
+.input:hover + .input__reaction-line {
+  border-bottom: 2px solid var(--White);
+}
+.input:focus + .input__reaction-line {
+  border-bottom: 2px solid var(--Lime);
+}
+.input::placeholder {
+  color: var(--White);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}

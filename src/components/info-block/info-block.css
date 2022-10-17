@@ -35,19 +35,3 @@
   opacity: 0.75;
   margin: 0;
 }
-.Icon_1::before {
-  content: url("../images/mainpage-icons/Icon 1.svg");
-}
-.Icon_2::before {
-  content: url("../images/mainpage-icons/Icon 2.svg");
-}
-.Icon_3::before {
-  content: url("../images/mainpage-icons/Icon 3.svg");
-}
-
-.Icon_1::before,
-.Icon_2::before,
-.Icon_3::before {
-  height: 128px;
-  width: 128px;
-}

@@ -33,7 +33,7 @@
   border: none;
 }
 .login__close::before {
-  content: url("../../images/icons/Type=Close, Color=White, Status=Normal.svg");
+  content: url("../../images/icons/Type=Close, Color=Black, Status=Normal.svg");
   display: flex;
 }
 .login__close:hover::before {

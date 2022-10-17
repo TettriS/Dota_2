@@ -14,7 +14,7 @@ const Input = ({
     <input
       name={name}
       type={type}
-      className={`input ${className}`}
+      className="input"
       placeholder={placeholder}
       onChange={onChange}
     />

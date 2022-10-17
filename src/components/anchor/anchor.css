@@ -1,0 +1,11 @@
+.anchor {
+  display: inline-flex;
+  align-items: center;
+}
+.anchor__link {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  padding: 0 20px;
+  text-decoration: none;
+}
